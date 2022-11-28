@@ -1,0 +1,44 @@
+.button-save {
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+.form-input {
+  height: 45px;
+}
+@media (min-width: 576px) {
+  .button-save {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+  .form-input {
+    padding: 0 10px;
+    height: 45px;
+  }
+}
+@media (min-width: 768px) {
+  .button-save {
+    width: 100%;
+    margin: 0;
+    padding-left: 10px;
+  }
+  .form-input {
+    padding: 0 10px;
+  }
+}
+@media (min-width: 992px) {
+  .button-save {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .button-save {
+   display: flex;
+   justify-content: center;
+   width: 33%;
+   margin-left: 33%;
+  }
+}

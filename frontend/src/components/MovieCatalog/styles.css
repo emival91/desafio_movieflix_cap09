@@ -1,0 +1,34 @@
+.row h1 {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.015em;
+  color: #ffffff;
+  margin: 25px 10px 0 20px;
+}
+@media (min-width: 576px) {
+  .row h1 {
+    margin: 25px 10px 0 30px;
+  }
+}
+@media (min-width: 768px) {
+  .row h1 {
+    margin: 25px 10px 0 60px;
+  }
+}
+@media (min-width: 992px) {
+  .row h1 {
+    margin: 25px 10px 0 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .row h1 {
+    margin: 25px 10px 0 80px;
+  }
+}
+@media (min-width: 1400px) {
+  .row h1 {
+    margin: 25px 10px 0 100px;
+  }
+}

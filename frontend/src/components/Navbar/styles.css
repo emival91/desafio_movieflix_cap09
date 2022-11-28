@@ -1,0 +1,44 @@
+.nav-logo-text {
+  height: 70px;
+}
+.nav-logo-text h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -0.015em;
+  color: #000000;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+@media (min-width:576px){
+  .nav-button-logout {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 202px;
+    padding-left: 30px;
+    margin-right: 50px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+  }
+  
+  .nav-button-logout h6{
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+    mix-blend-mode: normal;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+  .nav-logo-text h4 {
+    margin-left: 40px;
+  }
+}

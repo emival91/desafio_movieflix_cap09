@@ -1,0 +1,17 @@
+.movie-card h1 {
+  color: #fff;
+  margin: 15px 15px 30px 15px;
+  font-size: 24px;
+}
+@media (min-width: 576px) {
+  .movie-card h1 {
+    margin: 40px 15px 30px 30px;
+    font-size: 28px;
+  }
+}
+@media (min-width: 768px) {
+  .movie-card h1 {
+    margin: 40px 15px 30px 60px;
+    font-size: 28px;
+  }
+}
